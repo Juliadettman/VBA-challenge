@@ -149,7 +149,7 @@ Sub MultipleYearStockData():
             
             Next i
             
-        'Djust column width automatically
+        'Adjust column width automatically
         Worksheets(WorksheetName).Columns("A:Z").AutoFit
             
     Next ws
